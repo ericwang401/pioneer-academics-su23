@@ -1,0 +1,7 @@
+services:
+  workspace:
+    image: python:3.7-bookworm
+    tty: true
+    volumes:
+      - .:/workspaces/pioneer
+    working_dir: /workspaces/pioneer
